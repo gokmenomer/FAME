@@ -1,0 +1,3 @@
+function [loss, ypred] = evaluate(x, number_inputs, y, number_outputs, number_of_rules, mbs, learnable_parameters,  output_membership_type,tnorm,  nF, dr_method, loss_type, gam_aggregration_method, lambda)
+    [loss, ~ ,ypred] = dlfeval(@fismodelLoss, x, number_inputs, y, number_outputs, number_of_rules, mbs, learnable_parameters, output_membership_type,tnorm,  nF, dr_method, loss_type, gam_aggregration_method, lambda);
+end
