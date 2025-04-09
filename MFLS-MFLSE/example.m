@@ -6,7 +6,7 @@ dr_method_list = ["cdr", "dr", "none"]; % cdr | dr for PL
 loss_type_list = ["l_f", "l2"];
 dataset_name_list = ["BH", "parkinson", "wine", "aids", "concrete","abalone"];
 rules = [5, 10];
-gauss2MF_list = [true, false]; % true for FAME, false for FAM
+gauss2MF_list = [true, false]; % true for MFLSE, false for MFLS
 
 
 
